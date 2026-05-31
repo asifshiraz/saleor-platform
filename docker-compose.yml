@@ -36,8 +36,7 @@ services:
     networks:
       - saleor-backend-tier
     volumes:
-      - saleor-db:/var/lib/postgresql/data
-      - ./replica_user.sql:/docker-entrypoint-initdb.d/replica_user.sql:ro,z
+      - saleor-db:/var/lib/postgresql/data #- ./replica_user.sql:/docker-entrypoint-initdb.d/replica_user.sql:ro,z
     environment:
       - POSTGRES_USER=saleor
       - POSTGRES_PASSWORD=QKZgIHnyIdi1V3
