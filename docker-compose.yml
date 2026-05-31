@@ -19,7 +19,7 @@ services:
       - common.env
       - backend.env
     environment:
-      - DASHBOARD_URL=http://localhost:9000/
+      - DASHBOARD_URL=https://dashboard.noderunner.shop
       - ALLOWED_HOSTS=api.noderunner.shop
 
   dashboard:
