@@ -27,6 +27,8 @@ services:
     ports:
       - 9051:80
     restart: unless-stopped
+    environment:
+      - API_URL=https://api.noderunner.shop/graphql/
     networks:
        - saleor-backend-tier
 
