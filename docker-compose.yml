@@ -20,7 +20,7 @@ services:
       - backend.env
     environment:
       - DASHBOARD_URL=https://dashboard.noderunner.shop
-      - ALLOWED_HOSTS=api.noderunner.shop
+      - ALLOWED_HOSTS=api.noderunner.shop,localhost
 
   dashboard:
     image: ghcr.io/saleor/saleor-dashboard:3.23
