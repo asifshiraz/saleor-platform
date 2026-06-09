@@ -22,6 +22,7 @@ services:
     environment:
       - DASHBOARD_URL=https://dashboard.noderunner.shop
       - ALLOWED_HOSTS=api.noderunner.shop,localhost
+      - PUBLIC_URL=https://api.noderunner.shop
 
   dashboard:
     image: ghcr.io/saleor/saleor-dashboard:3.23
