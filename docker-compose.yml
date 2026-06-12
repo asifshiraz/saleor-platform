@@ -21,7 +21,7 @@ services:
       - backend.env
     environment:
       - DASHBOARD_URL=https://dashboard.noderunner.shop
-      - ALLOWED_HOSTS=api.noderunner.shop,localhost
+      - ALLOWED_HOSTS=api.noderunner.shop,localhost,saleor-platform-api-1
       - PUBLIC_URL=https://api.noderunner.shop
 
   dashboard:
